@@ -1,25 +1,23 @@
-# Windows Time Sync Tool 🕒
+# Windows Time Sync Tool ⏰
 
-A reliable Python tool that synchronizes your Windows system clock with precise NTP servers. Say goodbye to Windows' built-in sync failures!
+Fixes Windows clock drift by syncing with NTP servers.
 
-## Why This Exists
+## Why
 
-Let's be honest - Windows time synchronization can be frustratingly unreliable. After being consistently annoyed by my system clock drifting and the built-in sync failing repeatedly, I decided to take matters into my own hands. This simple tool was born from that frustration.
+Built after frustration with Windows' unreliable time synchronization.
 
 ## Features
 
-- Connects to multiple reliable NTP servers (time.google.com, time.windows.com, time.nist.gov)
-- Falls back to alternative servers if one fails
-- Shows time difference between your system and the NTP server
-- Automatically updates your system time with administrator privileges
-- Easy to run with the included batch file
+- Uses multiple NTP servers (Google, Windows, NIST)
+- Shows time difference
+- Auto-updates system time
+- Admin privileges handled via batch file
 
 ## Requirements
 
 - Windows OS
 - Python 3.x
 - Administrator privileges (for setting the system time)
-
 ## Usage
 
 ### One-time Sync
