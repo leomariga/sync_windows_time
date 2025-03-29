@@ -1,10 +1,10 @@
 # Windows Time Sync Tool ⏰
 
-Fixes Windows clock drift by syncing with NTP servers.
+Update Windows clock by syncing with NTP servers - the built-in sync simply doesn't work on my computer.
 
 ## Why
 
-Built after frustration with Windows' unreliable time synchronization.
+Built after frustration with Windows' sync repeatedly failing. This tool actually works.
 
 ## Features
 
